@@ -1,7 +1,8 @@
 <template>
-    <h1>Formulaire de saisir</h1>
+    
     <div>
       <form @submit.prevent="handleSubmit">
+        <h1>Formulaire de saisir</h1>
         <div>
           <label for="name">Nom :</label>
           <input
@@ -88,12 +89,13 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 1.5em;
-    background-color: #f9f9f9;
+    background-color: #e2e0e0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   h1{
     text-align: center;
+   
   }
  
   label {
@@ -139,7 +141,7 @@
   }
   
   button:hover {
-    background-color: #31b0d5;
+    background-color: #31d586;
   }
   
   
